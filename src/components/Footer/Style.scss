@@ -1,0 +1,29 @@
+@import "../../Styles/_base.scss";
+
+.footer-wrapper {
+  max-width: 1440px;
+  max-height: 850px;
+  padding: 75px 90px 45px 90px;
+  background-color: $primatyBlack;
+  color: $primaryWhite;
+}
+.footer-main {
+  display: flex;
+}
+.footer-nav {
+  font-size: 18px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .term-condition {
+    padding-left: 441px;
+  }
+  .social-icons {
+    max-width: 190px;
+    max-height: 25px;
+    padding-left: 50px;
+    display: flex;
+    gap: 11.8px;
+  }
+}

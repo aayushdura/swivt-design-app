@@ -1,13 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import RiderSection from "./components/RiderSection/RiderSection";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
+      <footer className="footer-container">
+        <Footer />
+      </footer>
     </div>
   );
 }
