@@ -5,6 +5,7 @@ import Footer from "./components/Footer/Footer";
 import PopularSection from "./components/PopularSection/PopularSection";
 import classes from "./App.module.scss"
 import PopularDelicacies from "./components/PopularSection/PopularDelicacies";
+import AboutSection from "./components/AboutSection/AboutSection";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <PopularSection sectionTitle="Breakfast Items" />
         <PopularSection sectionTitle="Drink Items" />
         <PopularDelicacies/>
+        <AboutSection/>
       </div>
       <Footer />
     </div>
