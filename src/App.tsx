@@ -6,6 +6,7 @@ import PopularSection from "./components/PopularSection/PopularSection";
 import classes from "./App.module.scss"
 import PopularDelicacies from "./components/PopularSection/PopularDelicacies";
 import AboutSection from "./components/AboutSection/AboutSection";
+import FeatureSection from "./components/FeatureSection/FeatureSection";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <PopularSection sectionTitle="Drink Items" />
         <PopularDelicacies/>
         <AboutSection/>
+        <FeatureSection/>
       </div>
       <Footer />
     </div>
