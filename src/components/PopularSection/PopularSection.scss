@@ -1,0 +1,33 @@
+.popular-section-wrapper{
+  width: 1356px;
+  height: 478px;
+}
+.popular-title-section {
+  width: 1251px;
+  padding:0px 10px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h3 {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 113.2%;
+    color: #1d262a;
+  }
+  span {
+    cursor: pointer;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 113.2%;
+  }
+}
+.card-list {
+  display: flex;
+  column-gap: 24px;
+  // overflow-x: hidden;
+  // overflow-y: none;
+}

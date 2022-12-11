@@ -1,7 +1,7 @@
 import React from "react";
 import CatalogueCard, {
   catalogueCardProps,
-} from "../Catalogue card/CatalogueCard";
+} from "../ProductCards/CatalogueCard";
 import "./Catalogue.scss"
 import catalogueItemImage from "../../Wireframes/thakali-e1603614702519 1.png";
 
@@ -12,17 +12,19 @@ const Catalogue:React.FC = () => {
     { title: "Soft Drinks", imageSrc: catalogueItemImage },
     { title: "Sea Foods", imageSrc: catalogueItemImage },
     { title: "Coffee", imageSrc: catalogueItemImage },
-    { title: "Coffee", imageSrc: catalogueItemImage },
-    { title: "Coffee", imageSrc: catalogueItemImage },
-    { title: "Coffee", imageSrc: catalogueItemImage },
-    { title: "Coffee", imageSrc: catalogueItemImage },
-    { title: "Coffee", imageSrc: catalogueItemImage },
-    { title: "Coffee", imageSrc: catalogueItemImage },
-    { title: "Coffee", imageSrc: catalogueItemImage },
+    { title: "Lunch, Breakfast, Dinner", imageSrc: catalogueItemImage },
+    { title: "Lunch, Breakfast, Dinner", imageSrc: catalogueItemImage },
+    { title: "Lunch, Breakfast, Dinner", imageSrc: catalogueItemImage },
+    { title: "Lunch, Breakfast, Dinner", imageSrc: catalogueItemImage },
+    { title: "Lunch, Breakfast, Dinner", imageSrc: catalogueItemImage },
+    { title: "Lunch, Breakfast, Dinner", imageSrc: catalogueItemImage },
+    { title: "Lunch, Breakfast, Dinner", imageSrc: catalogueItemImage },
+    { title: "Soft Drinks", imageSrc: catalogueItemImage },
+    { title: "Soft Drinks", imageSrc: catalogueItemImage },
   ];
 
   return (
-    <main className="catalogue-wrapper">
+    <div className="catalogue-wrapper">
       <h2 className="catalogue-title">Catalog sections delicacies</h2>
       <div className="catalogue-card-container">
       {cataloguesItems.map((item, index) => (
@@ -33,7 +35,7 @@ const Catalogue:React.FC = () => {
         />
       ))}
       </div>
-    </main>
+    </div>
   );
 };
 

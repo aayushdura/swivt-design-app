@@ -1,4 +1,11 @@
-.catalogue-card-container{
-    display: flex;
-    flex-wrap: wrap;
+.catalogue-wrapper {
+  width: 1260px;
+}
+.catalogue-card-container {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.catalogue-title {
+  width: 246px;
 }

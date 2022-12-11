@@ -1,11 +1,15 @@
 .App {
-    height: 100%;
-    font-family: sans-serif;
-    background-color: #f5f5f5;
-    align-items: center;
-    justify-content: center;
-  .footer-container{
-    
+  height: 100%;
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+  align-items: center;
+  justify-content: center;
+  button {
+    cursor: pointer;
   }
+  .footer-container {
   }
-  
+  .catalogue-container {
+    // padding
+  }
+}
