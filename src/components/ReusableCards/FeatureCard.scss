@@ -1,0 +1,31 @@
+.feature-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:0px 11px 7px 11px;
+  width: 297px;
+  height: 274px;
+  border: 2px solid #d5d4d4;
+  border-radius: 8px;
+  .feature-image-wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 36px 91px 8px 93px;
+    img {
+      width: 111px;
+      height: 111px;
+      // padding:36px 92px 0px 93px;
+    }
+  }
+  p {
+    width: 275px;
+    height: 61px;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 113.2%;
+    text-align: center;
+    text-transform: capitalize;
+  }
+}

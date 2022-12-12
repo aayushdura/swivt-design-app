@@ -1,5 +1,6 @@
 .feature-card-list{
     display: flex;
+    flex-wrap: wrap;
     width: 1257px;
     gap:23px;
 }

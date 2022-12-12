@@ -1,7 +1,7 @@
 import React from "react";
 import CatalogueCard, {
   catalogueCardProps,
-} from "../ProductCards/CatalogueCard";
+} from "../ReusableCards/CatalogueCard";
 import "./Catalogue.scss"
 import catalogueItemImage from "../../Wireframes/thakali-e1603614702519 1.png";
 

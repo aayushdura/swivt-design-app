@@ -1,0 +1,30 @@
+.card-wrapper {
+  width: 252px;
+  height: 372px;
+  background: #ffffff;
+  box-shadow: 4px 4px 17px rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+  img {
+    border-radius: 10px;
+    width: 100%;
+    height: 203px;
+  }
+}
+.product-title {
+  padding: 16px 20px 0px 14px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 113.2%;
+  color: #000000;
+}
+.price-btn-wrapper {
+  padding: 29px 18px 33px 14px;
+  display: flex;
+  justify-content: space-between;
+  .price-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}

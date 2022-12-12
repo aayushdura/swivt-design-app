@@ -1,5 +1,5 @@
 import React from "react";
-import ProductCard from "../ProductCards/ProductCard";
+import ProductCard from "../ReusableCards/ProductCard";
 import imageOfItem from "../../Wireframes/foodItem.png";
 import "./PopularSection.scss";
 interface popularSectionProps {

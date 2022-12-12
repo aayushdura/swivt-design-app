@@ -1,0 +1,79 @@
+.navbar-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 153px;
+  background: #f3f3f3;
+  border-bottom: 1px solid rgba(29, 38, 42, 0.16);
+}
+.link-bar-wrapper {
+  height: 48px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 113.2%;
+  text-align: center;
+  letter-spacing: 0.095em;
+  text-transform: capitalize;
+  color: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+}
+.link-bar-title1 {
+  cursor: pointer;
+  padding-left: 91px;
+}
+.link-bar-title2 {
+  cursor: pointer;
+  padding-right: 111px;
+}
+.main-navbar-wrapper {
+  display: flex;
+  align-items: center;
+}
+.address-phone-wrapper {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 18px 0px 18px 27px;
+  .phone-wrapper {
+    width: 142px;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.2%;
+    text-transform: capitalize;
+  }
+  .address-wrapper {
+    width: 260px;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 113.2%;
+    text-transform: capitalize;
+  }
+}
+
+.logo-wrapper {
+  padding: 2px 21px 1px 72px;
+  border-right: 1px solid rgba(29, 38, 42, 0.16);
+}
+.login-link {
+  padding-left: 51px;
+  cursor: pointer;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 113.2%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.cart-icon-wrapper{
+  padding-left: 51px;
+}

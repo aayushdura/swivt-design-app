@@ -1,5 +1,5 @@
 import React from "react";
-import FeatureCard, { featureCardProps } from "../ProductCards/FeatureCard";
+import FeatureCard, { featureCardProps } from "../ReusableCards/FeatureCard";
 import MaskGroup from "../../Wireframes/Mask group.png";
 import MaskGroup1 from "../../Wireframes/Mask group 2.png";
 import MaskGroup2 from "../../Wireframes/Mask group3.png";
