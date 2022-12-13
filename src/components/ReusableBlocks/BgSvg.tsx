@@ -1,6 +1,6 @@
 import { SVGProps } from 'react';
 import React from 'react'
-import discountRibbon from "../../Wireframes/DiscountRibbon.png"
+import discountRibbon from "../../LocalImages/DiscountRibbon.png"
 
 const BgSvg = (props: SVGProps<SVGSVGElement>) => {
   return (

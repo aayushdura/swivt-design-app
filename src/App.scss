@@ -1,0 +1,12 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    width: 100vmax;
+    align-items: center;
+  .main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10ch;
+  }
+}

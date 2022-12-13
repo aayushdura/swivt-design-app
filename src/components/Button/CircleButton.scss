@@ -1,14 +1,16 @@
+@import "../../Styles/base.scss";
 .primary-c-btn {
-    background: hsla(44, 80%, 23%, 0.928);
+    background: #926228;;
     border:none;
     border-radius: 50%;
     text-align: center;
     text-transform: capitalize;
-    color: #ffffff;
+    color: $primaryWhite;
   }
   .secondary-c-btn {
-    border: 1px solid #fcbc08;
-    border-radius: 5px;
-    color: #fcbc08;
+    background-color: $primaryWhite;
+    border: 1px solid #926228;;
+    border-radius: 50%;
+    color: #926228;;
   }
   

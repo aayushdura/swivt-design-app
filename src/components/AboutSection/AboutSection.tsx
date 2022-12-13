@@ -1,6 +1,6 @@
 import React from "react";
 import TextBlock from "../ReusableBlocks/TextBlock";
-import aboutvideo from "../../Wireframes/aboutvideo.png";
+import aboutvideo from "../../LocalImages/aboutvideo.png";
 import "./AboutSection.scss"
 const AboutSection = () => {
   return (

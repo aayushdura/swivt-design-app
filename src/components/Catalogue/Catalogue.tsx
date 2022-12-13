@@ -3,7 +3,7 @@ import CatalogueCard, {
   catalogueCardProps,
 } from "../ReusableCards/CatalogueCard";
 import "./Catalogue.scss"
-import catalogueItemImage from "../../Wireframes/thakali-e1603614702519 1.png";
+import catalogueItemImage from "../../LocalImages/thakali-e1603614702519 1.png";
 
 const Catalogue:React.FC = () => {
   let cataloguesItems: Array<catalogueCardProps> = [

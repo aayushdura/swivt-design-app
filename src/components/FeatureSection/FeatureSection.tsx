@@ -1,9 +1,9 @@
 import React from "react";
 import FeatureCard, { featureCardProps } from "../ReusableCards/FeatureCard";
-import MaskGroup from "../../Wireframes/Mask group.png";
-import MaskGroup1 from "../../Wireframes/Mask group 2.png";
-import MaskGroup2 from "../../Wireframes/Mask group3.png";
-import MaskGroup4 from "../../Wireframes/Mask group3.png";
+import MaskGroup from "../../LocalImages/Mask group.png";
+import MaskGroup1 from "../../LocalImages/Mask group 2.png";
+import MaskGroup2 from "../../LocalImages/Mask group3.png";
+import MaskGroup4 from "../../LocalImages/Mask group3.png";
 import "./FeatureSection.scss"
 const FeatureSection:React.FC = () => {
   const featureData: Array<featureCardProps> = [

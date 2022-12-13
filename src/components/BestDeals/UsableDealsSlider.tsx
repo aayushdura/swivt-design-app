@@ -1,9 +1,9 @@
 import React from "react";
 import ImageBlock from "../ReusableBlocks/ImageBlock";
-
 import Slider from "react-slick";
 import VoucherCard from "../ReusableCards/VoucherCard";
 import { voucher } from "../../utils/staticData";
+import "./UsableDealsSlider.scss"
 interface usableSliderProps {
   slidesToShow: number;
   title: string;

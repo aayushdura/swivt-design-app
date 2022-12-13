@@ -1,3 +1,4 @@
+@import "../../Styles/base.scss";
 .voucher-wrapper {
   h3 {
     padding: 20px 40px 0px 40px;
@@ -9,7 +10,7 @@
     line-height: 113.2%;
     text-align: center;
     text-transform: uppercase;
-    color: #ffffff;
+    color: $primaryWhite;
   }
   span{
     display: flex;
@@ -23,6 +24,6 @@
     font-size: 14px;
     line-height: 113.2%;
 
-    color: #ffffff;
+    color: $primaryWhite;
   }
 }

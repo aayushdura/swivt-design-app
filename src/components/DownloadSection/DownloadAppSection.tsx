@@ -1,10 +1,10 @@
 import React from "react";
 import ImageBlock from "../ReusableBlocks/ImageBlock";
 import TextBlock from "../ReusableBlocks/TextBlock";
-import downloadAppImg from "../../Wireframes/Download.png";
-import qrCode from "../../Wireframes/QR CODE.png";
-import googlePlay from "../../Wireframes/google.png";
-import appStore from "../../Wireframes/appstore.png";
+import downloadAppImg from "../../LocalImages/Download.png";
+import qrCode from "../../LocalImages/QR CODE.png";
+import googlePlay from "../../LocalImages/google.png";
+import appStore from "../../LocalImages/appstore.png";
 
 import "./DownloadAppSection.scss";
 const DownloadAppSection = () => {
@@ -45,6 +45,26 @@ const DownloadAppSection = () => {
         height={702}
         altTitle="download-app-image"
       />
+      <div className="mobile-download-app">
+        <h4>Get the Citi977 app</h4>
+        <span>Get live order tracking</span>
+        <span>Get latest feature update</span>
+        <div className="mobile-store-image-wrapper">
+          <ImageBlock
+            altTitle="play store"
+            height={102}
+            width={305}
+            imageSource={googlePlay}
+          />
+          {/* appstore */}
+          <ImageBlock
+            altTitle="apple store"
+            height={102}
+            width={305}
+            imageSource={appStore}
+          />
+        </div>
+      </div>
     </div>
   );
 };

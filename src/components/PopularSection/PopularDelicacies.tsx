@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import popularDelicacies from "../../Wireframes/poupulardelicacies.jpg";
+import popularDelicacies from "../../LocalImages/poupulardelicacies.jpg";
 import Button from "../Button/Button";
 import CircleButton from "../Button/CircleButton";
 import TextBlock from "../ReusableBlocks/TextBlock";
@@ -31,7 +31,7 @@ const PopularDelicacies = () => {
         <div className="buttons-wrapper">
           <Button primary>Read Completely</Button>
           Quantity
-          <CircleButton onClick={(e) => handleClick("dec")} type="small">
+          <CircleButton onClick={(e) => handleClick("dec")} type="secondary">
             -
           </CircleButton>
           {quantity}

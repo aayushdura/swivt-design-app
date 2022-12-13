@@ -1,3 +1,5 @@
+@import "../../../src/Styles/base.scss";
+
 .primary-btn {
   background: #fcbc08;
   border:none;
@@ -11,13 +13,13 @@
   line-height: 24px;
   text-align: center;
   text-transform: capitalize;
-  color: #ffffff;
+  color: $primaryWhite;
 }
 .secondary-btn {
   padding: 10px 35px;
   text-transform: uppercase;
   border: 1px solid #fcbc08;
-  background: #ffffff;
+  background: $primaryWhite;
   border-radius: 5px;
   color: #fcbc08;
 }

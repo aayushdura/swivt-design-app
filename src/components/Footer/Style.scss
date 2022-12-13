@@ -1,13 +1,15 @@
 @import "../../Styles/_base.scss";
 
 .footer-wrapper {
-  max-width: 1440px;
-  max-height: 850px;
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
   padding: 75px 90px 45px 90px;
   background-color: $primatyBlack;
   color: $primaryWhite;
   .footer-main {
-    display: flex;
+    max-width: 1440px;
+    min-width: 743px;
     p {
       cursor: pointer;
     }

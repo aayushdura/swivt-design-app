@@ -1,9 +1,26 @@
 .download-section-wrapper {
   display: flex;
 }
-.content-section{
+.content-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 597px;
+}
+.mobile-download-app {
+  padding: 55px 51px 47px 54px;
+  background: #d2a54c;
+  max-width: 744px;
+  h4,span{font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31.6751px;
+  line-height: 113.2%;}
+  display: flex;
+  display: none;
+  flex-direction: column;
+  gap: 50px;
+  .mobile-store-image-wrapper {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 597px;
+  }
 }

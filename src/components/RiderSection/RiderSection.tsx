@@ -1,18 +1,30 @@
 import React from "react";
-import type { FC } from "react";
-
-import { Ellipse180Icon } from "./Elipse108Icon";
-import { FrameIcon } from "./FrameIcon";
-import classes from "./RiderSection.module.scss";
-
-interface Props {
-  className?: string;
-}
-const RiderSection: React.FC<Props> = () => {
+import ImageBlock from "../ReusableBlocks/ImageBlock";
+import deliveryRider from "../../LocalImages/RiderSetion.png";
+import Button from "../Button/Button";
+import "./RiderSection.scss";
+const RiderSection = () => {
   return (
-    <>
-     
-    </>
+    <div className="rider-section-wrapper">
+      <ImageBlock
+        altTitle="delivery-rider"
+        height={493}
+        width={493}
+        imageSource={deliveryRider}
+      />
+      <div className="text-content-wrapper">
+        <h3>Join Our</h3>
+        <h1>Rider Program</h1>
+        <p>
+          Citi977’s rider crew is the backbone of Citi977 vision to change how
+          people get their Grocery & Foods
+          <b>
+            <i>Be the Citi977 Delivery Hero and earn more!</i>
+          </b>
+        </p>
+        <Button primary>Apply</Button>
+      </div>
+    </div>
   );
 };
 

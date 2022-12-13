@@ -5,10 +5,11 @@ import {
   OutlinedInput,
 } from "@mui/material";
 import React, { useState } from "react";
-import logoElipse from "../../Wireframes/Ellipse 181.png";
+import logoElipse from "../../LocalImages/Ellipse 181.png";
 import SearchIcon from "@mui/icons-material/Search";
 import "./NavBar.scss";
 import { ShoppingCartCheckout } from "@mui/icons-material";
+
 const NavBar = () => {
   const [searchKey, setSearchKey] = useState("");
   let deatailsForNavBar = {
