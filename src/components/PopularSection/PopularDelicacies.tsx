@@ -3,7 +3,7 @@ import popularDelicacies from "../../LocalImages/poupulardelicacies.jpg";
 import Button from "../Button/Button";
 import CircleButton from "../Button/CircleButton";
 import TextBlock from "../ReusableBlocks/TextBlock";
-import "./PopularDelicacies.scss"
+import "./PopularDelicacies.scss";
 const PopularDelicacies = () => {
   const [quantity, setQuantity] = useState(2);
   const handleClick = (type: string) => {
@@ -15,7 +15,15 @@ const PopularDelicacies = () => {
       return;
     }
   };
-
+  let style = {
+    fontfamily: "Source Sans Pro",
+    fontStyle: "normal",
+    fontWeight: "600",
+    fontSize: "40px",
+    lineHeight: "113.2%",
+    // textAlign: "center",
+    textTransform: "capitalize",
+  };
   return (
     <div className="pop-delicacies-wrapper">
       <div className="image-heading-wrapper">
@@ -29,13 +37,23 @@ const PopularDelicacies = () => {
           subtitle="Recipie"
         />
         <div className="buttons-wrapper">
-          <Button primary>Read Completely</Button>
+          <Button style={{ margin: "0px 102px 0px 0px" }} primary>
+            Read Completely
+          </Button>
           Quantity
-          <CircleButton onClick={(e) => handleClick("dec")} type="secondary">
+          <CircleButton
+            style={{ margin: "0px 10px" }}
+            onClick={(e) => handleClick("dec")}
+            type="secondary"
+          >
             -
           </CircleButton>
           {quantity}
-          <CircleButton onClick={(e) => handleClick("inc")} type="small">
+          <CircleButton
+            style={{ margin: "0px 10px" }}
+            onClick={(e) => handleClick("inc")}
+            type="small"
+          >
             +
           </CircleButton>
         </div>

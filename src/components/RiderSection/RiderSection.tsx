@@ -12,6 +12,8 @@ const RiderSection = () => {
         width={493}
         imageSource={deliveryRider}
       />
+      <div className="bg-color">
+      </div>
       <div className="text-content-wrapper">
         <h3>Join Our</h3>
         <h1>Rider Program</h1>

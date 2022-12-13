@@ -48,17 +48,22 @@ function App() {
           products={popularProducts}
         />
         {/* breakfast item card slide */}
-        {/* <PopularSection sectionTitle="Breakfast Items" /> */}
+        <PopularSection
+          sectionTitle="Breakfast Items"
+          products={popularProducts}
+        />
         {/* drink card slider */}
         <PopularSection sectionTitle="Drink Items" products={drinkProducts} />
         <PopularDelicacies />
         <AboutSection />
+        <div className="main-image-full-width">
         <ImageBlock
           imageSource={mainImage2}
           altTitle="main-display-2"
           width={1440}
           height={230}
         />
+        </div>
         <PromotionSection />
         <FeatureSection />
         <RiderSection />

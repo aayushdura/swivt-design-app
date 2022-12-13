@@ -19,10 +19,20 @@ const Footer: React.FC = () => {
                 <p>Breakfast Menu</p>
                 <p>Breakfast Menu</p>
                 <p>Breakfast Menu</p>
+                <p>Breakfast Menu</p>
+                <p>Breakfast Menu</p>
+                <p>Breakfast Menu</p>
+                <p>Breakfast Menu</p>
+                <p>Breakfast Menu</p>
               </div>
               <div className="col-md-6 col-sm-6 p-0">
                 <p>Dessert</p>
                 <p>Dessert</p>
+                <p>Breakfast Menu</p>
+                <p>Breakfast Menu</p>
+                <p>Breakfast Menu</p>
+                <p>Breakfast Menu</p>
+                <p>Breakfast Menu</p>
                 <p>Breakfast Menu</p>
                 <p>Breakfast Menu</p>
                 <p>Breakfast Menu</p>
@@ -49,6 +59,7 @@ const Footer: React.FC = () => {
                 <p>Breakfast Menu</p>
                 <p>Breakfast Menu</p>
                 <p>Breakfast Menu</p>
+                
               </div>
               <div className="col-md-4 col-sm-4 p-0">
                 <p>Dessert</p>

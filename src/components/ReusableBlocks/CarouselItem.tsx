@@ -8,13 +8,13 @@ const CarouselItem = () => {
         // Fix me
       };
   return (
+    <div className="carousel-wrapper">
     <div className="main-carousal-wrapper">
     <div className="carousal-text-block">
       <h3>All Delicacies</h3>
       <h1>Grilled Lamb</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut
-        tortor sem aliquet donec quis eu dolor amet. Eget nibh enim.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate morbi ultrices at pulvinar feugiat. Ultrices consequat eget magna risus, posuere dui. 
       </p>
       <CircleButton
         style={{
@@ -40,6 +40,7 @@ const CarouselItem = () => {
       width={497}
       imageSource={carouselImage}
     />
+  </div>
   </div>
   )
 }

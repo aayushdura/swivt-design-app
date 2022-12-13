@@ -1,4 +1,32 @@
-.main-carousal-wrapper{
-    display: flex;
-    background: #FCE5C0;
+.carousel-wrapper {
+  padding: 40px 40px 0px 40px;
+}
+.main-carousal-wrapper {
+  display: flex;
+  border-radius: 19.7627px;
+  filter: box-shadow(0px 8px 18px rgba(0, 0, 0, 0.1));
+  background: #fce5c0;
+  align-items: center;
+  gap: 12%;
+}
+.carousal-text-block {
+  padding: 40px 40px 40px 21px;
+  h3 {
+    font-size: 39px;
+  }
+  h1 {
+    font-size: 100px;
+    max-width: 345px;
+    color: #fcbc08;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 89.7%;
+    letter-spacing: 0.065em;
+  }
+  p {
+    width: 100%;
+    font-weight: 400;
+    font-size: 16.3664px;
+    line-height: 113.2%;
+  }
 }

@@ -25,10 +25,10 @@ const NavBar = () => {
   return (
     <nav className="navbar-wrapper">
       <div className="link-bar-wrapper">
-        <span className="link-bar-title1"> 24 hrs Service | 365 Days</span>
+        <span className="link-bar-title1">24 hrs Service | 365 Days</span>
         <span className="link-bar-title2">
           {" "}
-          Translate | Support | Help | FAQ
+          Translate | Support | Help | FAQ {/* Fix me and add routes */}
         </span>
       </div>
       <div className="main-navbar-wrapper">
@@ -39,19 +39,21 @@ const NavBar = () => {
           <span className="phone-wrapper">{deatailsForNavBar.phoneNo}</span>
           <span className="address-wrapper">{deatailsForNavBar.address}</span>
         </div>
-        <OutlinedInput
-          id="input-with-icon-adornment"
-          size="medium"
-          startAdornment={
-            <InputAdornment position="start">
-              <SearchIcon fontSize="large" style={{ color: " #926228" }} />
-            </InputAdornment>
-          }
-          placeholder="Search your food"
-          onChange={handleSearchKey}
-          value={searchKey}
-          style={{ width: "612px", height: "54px", borderRadius: "48px" }}
-        />
+        <div className="search-bar-wrapper">
+          <OutlinedInput
+            id="input-with-icon-adornment"
+            size="medium"
+            startAdornment={
+              <InputAdornment position="start">
+                <SearchIcon fontSize="large" style={{ color: " #926228" }} />
+              </InputAdornment>
+            }
+            placeholder="Search your food"
+            onChange={handleSearchKey}
+            value={searchKey}
+            style={{ width: "612px", borderRadius: "48px" }}
+          />
+        </div>
         <span className="login-link">Login</span>
         <div className="cart-icon-wrapper">
           <IconButton>

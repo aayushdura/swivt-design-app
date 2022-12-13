@@ -22,8 +22,11 @@ const UsableDealsSlider: React.FC<usableSliderProps> = ({
 }) => {
   const slickSettings = {
     speed: 500,
-    autoplay: true,
     slidesToShow: slidesToShow,
+    style:{
+      gap:"20px",
+      overflow:"hidden"
+    }
   };
   return (
     <div className="deal-carousal-wrapper">
