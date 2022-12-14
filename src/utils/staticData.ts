@@ -88,7 +88,7 @@ export const drinkProducts = [
   },
   {
     image: imageOfItem3,
-    itemTitle: "Orange Guice Ice-Crushed",
+    itemTitle: "Iced Orange Juice",
     orgPrice: "620",
     discountedPrice: "500",
     currency: "Rs",
