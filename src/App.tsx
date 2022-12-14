@@ -31,7 +31,7 @@ function App() {
         <ImageBlock
           imageSource={mainImage}
           altTitle="main-display"
-          width={1255}
+          width={"100%"}
           height={268}
         />
         {/* Coupon Section */}
@@ -53,21 +53,21 @@ function App() {
           products={popularProducts}
         />
         {/* drink card slider */}
-        <PopularSection sectionTitle="Drink Items" products={drinkProducts} />
+        <PopularSection sectionTitle="Drink Items" products={drinkProducts}/>
         <PopularDelicacies />
         <AboutSection />
         <div className="main-image-full-width">
         <ImageBlock
           imageSource={mainImage2}
           altTitle="main-display-2"
-          width={1440}
+          width={"100%"}
           height={230}
         />
-        </div>
         <PromotionSection />
-        <FeatureSection />
-        <RiderSection />
-        <DownloadAppSection />
+        </div>
+        {/* <FeatureSection /> */}
+        {/* <RiderSection /> */}
+        {/* <DownloadAppSection /> */}
       </div>
       <Footer />
     </div>

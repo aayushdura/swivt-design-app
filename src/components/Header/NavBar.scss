@@ -1,6 +1,5 @@
 .navbar-wrapper {
   width: 100%;
-  max-width: 1440px;
   display: flex;
   flex-direction: column;
   margin-bottom: 51px;
@@ -44,13 +43,13 @@
   }
 }
 .address-phone-wrapper {
-  width: 260px;
+  // width: 260px;
   display: flex;
   flex-direction: column;
   gap: 15px;
   padding: 18px 0px 18px 27px;
   .phone-wrapper {
-    width: 142px;
+    // width: 142px;
     font-family: "Source Sans Pro";
     font-style: normal;
     font-weight: 400;
@@ -59,7 +58,7 @@
     text-transform: capitalize;
   }
   .address-wrapper {
-    width: 260px;
+    // width: 260px;
     font-family: "Source Sans Pro";
     font-style: normal;
     font-weight: 600;
@@ -112,7 +111,7 @@
       padding-right: 411px;
     }
     .search-bar-wrapper {
-      width: 698px;
+      // width: 698px;
       height: 45px;
       left: 30px;
       top: 120px;

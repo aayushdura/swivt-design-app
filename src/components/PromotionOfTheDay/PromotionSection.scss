@@ -1,21 +1,20 @@
 .promotion-section-wrapper {
   display: flex;
-  justify-content: space-around;
-  max-width: 1440px;
-  margin-bottom:106px;
+  justify-content: center;
+  .promotion-1-container,.promotion-2-container{
+    width: 45%;
+  }
 }
 .promotion-1-container {
   position: relative;
   background: url("../../LocalImages/Promotion1.png");
-  width: 591px;
-  height: 493px;
+  background-repeat: no-repeat;
   padding: 304px 0px 0px 25px;
 }
 .promotion-2-container {
   position: relative;
   background: url("../../LocalImages/Promotion2.png");
-  width: 591px;
-  height: 493px;
+  background-repeat: no-repeat;
   padding: 304px 0px 0px 25px;
 }
 .text-block {
@@ -37,5 +36,10 @@
     font-weight: 500;
     font-size: 15.2387px;
     line-height: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .promotion-section-wrapper{
+    display: none;
   }
 }

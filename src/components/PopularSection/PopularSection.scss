@@ -1,9 +1,7 @@
 .popular-section-wrapper{
-  width: 1356px;
   height: 478px;
 }
 .popular-title-section {
-  width: 1251px;
   padding:0px 10px 0px 0px;
   display: flex;
   justify-content: space-between;
@@ -27,7 +25,6 @@
 }
 .card-list {
   display: flex;
-  column-gap: 24px;
-  // overflow-x: hidden;
-  // overflow-y: none;
+  column-gap: 21px;
+
 }
