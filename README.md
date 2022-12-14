@@ -1,5 +1,8 @@
 # A Normal UI design Practice Based on a Wireframe of an e-commerce Webpage
 
+# Preview ![image](https://user-images.githubusercontent.com/58044533/207706861-c4658aec-99b3-4535-9b54-7258d3ca2b4d.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
