@@ -17,8 +17,8 @@ const ProductCard: React.FC<productType> = ({
       <p className="product-title">{itemTitle}</p>
       <div className="price-btn-wrapper">
         <div className="price-wrapper">
-          <span>{`${currency}${discountedPrice}`}</span>
-          <span>{`${currency}${orgPrice}`}</span>
+          <span className="discounted-price">{`${currency}${discountedPrice}`}</span>
+          <span className="old-price">{`${currency}${orgPrice}`}</span>
         </div>
         <Button primary={false}>Add</Button>
       </div>

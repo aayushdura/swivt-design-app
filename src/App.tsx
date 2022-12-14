@@ -26,8 +26,7 @@ function App() {
     <div className="App">
       {/* Top Header NavBar */}
       <NavBar />
-      <div className="main-section">
-        {/* Image below header */}
+      <main className="main-section">
         <ImageBlock
           imageSource={mainImage}
           altTitle="main-display"
@@ -53,22 +52,27 @@ function App() {
           products={popularProducts}
         />
         {/* drink card slider */}
-        <PopularSection sectionTitle="Drink Items" products={drinkProducts}/>
+        <PopularSection sectionTitle="Drink Items" products={drinkProducts} />
+
+        {/* popular delicacies */}
         <PopularDelicacies />
+        {/* About section  */}
         <AboutSection />
+        {/* full width image  */}
         <div className="main-image-full-width">
-        <ImageBlock
-          imageSource={mainImage2}
-          altTitle="main-display-2"
-          width={"100%"}
-          height={230}
-        />
-        <PromotionSection />
+          <ImageBlock
+            imageSource={mainImage2}
+            altTitle="main-display-2"
+            width={"100%"}
+            height={230}
+          />
         </div>
-        {/* <FeatureSection /> */}
-        {/* <RiderSection /> */}
-        {/* <DownloadAppSection /> */}
-      </div>
+        {/* promoiton of the day section  */}
+        <PromotionSection />
+        {/*  */}
+        <FeatureSection />
+        
+      </main>
       <Footer />
     </div>
   );

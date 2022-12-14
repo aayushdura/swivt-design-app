@@ -1,8 +1,8 @@
 import React from "react";
 interface imageBlockProps {
   imageSource: string;
-  width: number | string;
-  height: number | string;
+  width?: number | string;
+  height?: number | string;
   altTitle: string;
 }
 const ImageBlock: React.FC<imageBlockProps> = ({

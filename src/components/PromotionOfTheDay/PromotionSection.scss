@@ -1,21 +1,20 @@
 .promotion-section-wrapper {
   display: flex;
   justify-content: center;
-  .promotion-1-container,.promotion-2-container{
-    width: 45%;
-  }
+  gap:2%;
+
 }
 .promotion-1-container {
   position: relative;
   background: url("../../LocalImages/Promotion1.png");
   background-repeat: no-repeat;
-  padding: 304px 0px 0px 25px;
+  padding: 305px 0px 0px 16px;
 }
 .promotion-2-container {
   position: relative;
   background: url("../../LocalImages/Promotion2.png");
   background-repeat: no-repeat;
-  padding: 304px 0px 0px 25px;
+  padding: 305px 0px 0px 16px;
 }
 .text-block {
   position: absolute;
@@ -36,6 +35,14 @@
     font-weight: 500;
     font-size: 15.2387px;
     line-height: 18px;
+  }
+}
+@media screen and (max-width: 1028px) {
+  .promotion-section-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
   }
 }
 @media screen and (max-width: 768px) {

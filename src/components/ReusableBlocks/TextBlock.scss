@@ -1,6 +1,6 @@
 .text-block-wrapper {
   h3 {
-    width: 371px;
+    // width: 371px;
     height: 66px;
     margin-top: 30px;
     font-family: "Inter";
@@ -17,8 +17,7 @@
     line-height: 22px;
   }
   p {
-    width: 591px;
-    height: 205px;
+    min-height: 114px;
     font-family: "Source Sans Pro";
     font-style: normal;
     font-weight: 400;
@@ -26,4 +25,7 @@
     line-height: 113.2%;
     text-transform: capitalize;
   }
+}
+@media screen and (max-width: 1024px) {
+
 }

@@ -17,6 +17,14 @@ import popularProd3 from "../LocalImages/FoodItem/Rectangle 9-1.png"
 import popularProd4 from "../LocalImages/FoodItem/Rectangle 9-2.png"
 import popularProd5 from "../LocalImages/FoodItem/Rectangle 9-5.png"
 
+import { catalogueCardProps } from "../components/ReusableCards/CatalogueCard";
+import catalogueItemImage from "../LocalImages/thakali-e1603614702519 1.png";
+import { featureCardProps } from "../components/ReusableCards/FeatureCard";
+
+import MaskGroup from "../LocalImages/Mask group.png";
+import MaskGroup1 from "../LocalImages/Mask group 2.png";
+import MaskGroup2 from "../LocalImages/Mask group3.png";
+import MaskGroup4 from "../LocalImages/Mask group3.png";
 export interface voucher {
   id: string;
   discountOffer: number;
@@ -26,12 +34,12 @@ export interface voucher {
 export let bestDealsData = {
   slidesToShow: 3,
   title: "Best Deals",
-  cardWidth: 435,
-  cardHeight: 309,
+  // cardWidth: 435,
+  // cardHeight: 309,
   images: [carousal1, carousal2, carousal3],
 };
 export let couponCodeData = {
-  slidesToShow: 4,
+  // slidesToShow: 4,
   title: "Coupon Code",
   cardWidth: 317,
   cardHeight: 133,
@@ -103,14 +111,14 @@ export const drinkProducts = [
 export const popularProducts: Array<productType> = [
   {
     image: popularProd1,
-    itemTitle: "Cheese Pizza - with extra toppines and cheese",
+    itemTitle: "Tosted Bread, Massed Eggs, Milk rice",
     orgPrice: "620",
     discountedPrice: "500",
     currency: "Rs",
   },
   {
     image: popularProd5,
-    itemTitle: "Cheese Pizza - with extra toppines and cheese",
+    itemTitle: "Chiken suses, tosted bread",
     orgPrice: "620",
     discountedPrice: "500",
     currency: "Rs",
@@ -135,5 +143,48 @@ export const popularProducts: Array<productType> = [
     orgPrice: "620",
     discountedPrice: "500",
     currency: "Rs",
+  },
+];
+
+export let cataloguesItems: Array<catalogueCardProps> = [
+  { title: "Breakfast sets", imageSrc: catalogueItemImage },
+  { title: "Nepal Lunch Set", imageSrc: catalogueItemImage },
+  { title: "Soft Drinks", imageSrc: catalogueItemImage },
+  { title: "Sea Foods", imageSrc: catalogueItemImage },
+  { title: "Coffee", imageSrc: catalogueItemImage },
+  { title: "Lunch, Breakfast, Dinner", imageSrc: catalogueItemImage },
+  { title: "Lunch, Breakfast, Dinner", imageSrc: catalogueItemImage },
+  { title: "Lunch, Breakfast, Dinner", imageSrc: catalogueItemImage },
+  { title: "Lunch, Breakfast, Dinner", imageSrc: catalogueItemImage },
+  { title: "Lunch, Breakfast, Dinner", imageSrc: catalogueItemImage },
+  { title: "Lunch, Breakfast, Dinner", imageSrc: catalogueItemImage },
+  { title: "Lunch, Breakfast, Dinner", imageSrc: catalogueItemImage },
+  { title: "Soft Drinks", imageSrc: catalogueItemImage },
+  { title: "Soft Drinks", imageSrc: catalogueItemImage },
+];
+export const featureData: Array<featureCardProps> = [
+  {
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur ut quam aliquet nascetur. ",
+    image: MaskGroup,
+    title: "Superfast Delivery",
+  },
+  {
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur ut quam aliquet nascetur. ",
+    image: MaskGroup1,
+    title: "Best Prices & Offers",
+  },
+  {
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur ut quam aliquet nascetur. ",
+    image: MaskGroup2,
+    title: "Wide Assortment",
+  },
+  {
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur ut quam aliquet nascetur. ",
+    image: MaskGroup4,
+    title: "Easy Return/Refund",
   },
 ];

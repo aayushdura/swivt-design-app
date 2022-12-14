@@ -1,5 +1,5 @@
 .carousel-wrapper {
-  padding: 40px 40px 0px 40px;
+  padding: 4% 2% 2% 2%;
 }
 .main-carousal-wrapper {
   display: flex;
@@ -7,10 +7,9 @@
   filter: box-shadow(0px 8px 18px rgba(0, 0, 0, 0.1));
   background: #fce5c0;
   align-items: center;
-  gap: 12%;
 }
 .carousal-text-block {
-  padding: 40px 40px 40px 21px;
+  padding: 0% 6% 1% 5%;
   h3 {
     font-size: 39px;
   }
@@ -29,4 +28,7 @@
     font-size: 16.3664px;
     line-height: 113.2%;
   }
+}
+.image-wrapper-carousel-item{
+ padding:2% 2%
 }

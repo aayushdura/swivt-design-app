@@ -1,7 +1,7 @@
 import React from 'react'
 import CircleButton from '../Button/CircleButton'
 import ImageBlock from './ImageBlock'
-import "./MainCarousel.scss"
+import "./CarouselItem.scss"
 import carouselImage from "../../LocalImages/carouselimage.png";
 const CarouselItem = () => {
     const handleClick = () => {
@@ -34,12 +34,12 @@ const CarouselItem = () => {
         Add To Cart
       </CircleButton>
     </div>
+    <div className="image-wrapper-carousel-item">
     <ImageBlock
       altTitle="carousal-section-image"
-      height={497}
-      width={497}
       imageSource={carouselImage}
     />
+    </div>
   </div>
   </div>
   )

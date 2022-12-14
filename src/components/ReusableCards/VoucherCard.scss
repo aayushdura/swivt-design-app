@@ -1,8 +1,8 @@
 @import "../../Styles/base.scss";
 .voucher-wrapper {
+  margin: 0px 10px 0px 0px;
   h3 {
-    padding: 20px 40px 0px 40px;
-    margin: 0px;
+    padding: 3% 0% 2% 2%;
     font-family: "Source Sans Pro";
     font-style: normal;
     font-weight: 600;
@@ -17,13 +17,12 @@
     align-items: center;
   }
   p {
-    padding: 7px 89px 11px 49px;
+    padding: 2% 17% 3% 22%;
     font-family: "Source Sans Pro";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 113.2%;
-
     color: $primaryWhite;
   }
 }

@@ -8,8 +8,8 @@ const PromotionSection = () => {
       <div className="promotion-1-container">
         <ImageBlock
           altTitle="promotion-1-clip"
-          width={570}
-          height={197}
+          // width={570}
+          // height={197}
           imageSource={clippedImage}
         />
         <div className="text-block">
@@ -23,8 +23,8 @@ const PromotionSection = () => {
       <div className="promotion-2-container">
         <ImageBlock
           altTitle="promotion-2-clip"
-          width={570}
-          height={197}
+          // width={570}
+          // height={197}
           imageSource={clippedImage}
         />
         <div className="text-block">

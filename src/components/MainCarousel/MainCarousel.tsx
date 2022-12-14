@@ -18,7 +18,6 @@ const CarouselSection = () => {
       <Slider {...slickSettings}>
         <CarouselItem />
         <CarouselItem />
-        <CarouselItem />
       </Slider>
     </div>
   );

@@ -41,7 +41,7 @@ const DownloadAppSection = () => {
       </div>
       <ImageBlock
         imageSource={downloadAppImg}
-        width={786}
+        width={"100%"}
         height={702}
         altTitle="download-app-image"
       />
@@ -53,14 +53,14 @@ const DownloadAppSection = () => {
           <ImageBlock
             altTitle="play store"
             height={102}
-            width={305}
+            width={""}
             imageSource={googlePlay}
           />
           {/* appstore */}
           <ImageBlock
             altTitle="apple store"
             height={102}
-            width={305}
+            width={""}
             imageSource={appStore}
           />
         </div>

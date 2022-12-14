@@ -4,8 +4,8 @@ import Button from "../Button/Button";
 import ImageBlock from "../ReusableBlocks/ImageBlock";
 import "./VoucherCard.scss";
 interface voucherCardProps extends voucher {
-  cardHeight: number | string;
-  cardWidth: number | string;
+  cardHeight?: number | string;
+  cardWidth?: number | string;
 }
 const VoucherCard: React.FC<voucherCardProps> = ({
   code,
@@ -26,6 +26,7 @@ const VoucherCard: React.FC<voucherCardProps> = ({
         height: cardHeight,
         width: cardWidth,
         backgroundImage: `url(${image})`,
+        backgroundRepeat:"no-repeat"
       }}
     >
       <h3>{`${discountOffer} % OFF `}</h3>

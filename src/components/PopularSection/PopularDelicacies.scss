@@ -6,17 +6,26 @@
   flex-direction: column;
   gap: 25px;
   img {
-    // width: 620px;
     height: 518px;
     padding-right: 20px;
   }
 }
 .content-wrapper {
-  padding: 76px 90px 20px 29px;
+  padding: 6% 1% 0% 1%;
   h3{
+    max-width: 371px;
     margin-bottom: 45px;
   }
+
 }
 .buttons-wrapper{
-  margin: 57px 0px 0px 1px;
+  margin: 9% 0 0 0 ;
+}
+
+@media screen and (max-width: 1024px) {
+  
+  .pop-delicacies-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
 }

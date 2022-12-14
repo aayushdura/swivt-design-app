@@ -37,19 +37,21 @@
 .main-navbar-wrapper {
   display: flex;
   align-items: center;
-  margin:0px 80px 0px 90px;
-  .search-bar-wrapper{
+  margin: 0px 80px 0px 90px;
+  .search-bar-wrapper {
     height: 54px;
   }
 }
+.search-bar-wrapper {
+  width: 48%;
+  margin-left:4%;
+}
 .address-phone-wrapper {
-  // width: 260px;
   display: flex;
   flex-direction: column;
   gap: 15px;
   padding: 18px 0px 18px 27px;
   .phone-wrapper {
-    // width: 142px;
     font-family: "Source Sans Pro";
     font-style: normal;
     font-weight: 400;
@@ -58,7 +60,6 @@
     text-transform: capitalize;
   }
   .address-wrapper {
-    // width: 260px;
     font-family: "Source Sans Pro";
     font-style: normal;
     font-weight: 600;
@@ -87,7 +88,7 @@
   padding-left: 70px;
 }
 @media screen and (max-width: 768px) {
-  .navbar-wrapper{
+  .navbar-wrapper {
     margin-bottom: 105px;
   }
   .link-bar-wrapper {
@@ -98,7 +99,7 @@
       display: none;
     }
   }
-  .cart-icon-wrapper{
+  .cart-icon-wrapper {
     display: none;
   }
   .logo-wrapper,
@@ -107,14 +108,18 @@
   }
   .main-navbar-wrapper {
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
     .address-phone-wrapper {
       padding-right: 411px;
     }
     .search-bar-wrapper {
-      // width: 698px;
+      margin: 0;
+      width: 90%;
       height: 45px;
-      left: 30px;
-      top: 120px;
+      left:30px;
+      top: 130px;
       position: absolute;
     }
   }

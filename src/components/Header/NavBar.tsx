@@ -42,7 +42,6 @@ const NavBar = () => {
         <div className="search-bar-wrapper">
           <OutlinedInput
             id="input-with-icon-adornment"
-            size="medium"
             startAdornment={
               <InputAdornment position="start">
                 <SearchIcon fontSize="large" style={{ color: " #926228" }} />
@@ -51,7 +50,7 @@ const NavBar = () => {
             placeholder="Search your food"
             onChange={handleSearchKey}
             value={searchKey}
-            style={{ width: "612px", borderRadius: "48px" }}
+            style={{ borderRadius: "48px",width:"100%" }}
           />
         </div>
         <span className="login-link">Login</span>
