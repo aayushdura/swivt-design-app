@@ -13,6 +13,7 @@ import DownloadAppSection from "./components/DownloadSection/DownloadAppSection"
 import UsableDealsSlider from "./components/BestDeals/UsableDealsSlider";
 import {
   bestDealsData,
+    // height: 8332px;
   couponCodeData,
   drinkProducts,
   popularProducts,
@@ -69,9 +70,12 @@ function App() {
         </div>
         {/* promoiton of the day section  */}
         <PromotionSection />
-        {/*  */}
+        {/* feature tiles section  */}
         <FeatureSection />
-        
+        {/* rider section  */}
+        <RiderSection />
+        {/* Download App section */}
+        <DownloadAppSection/>
       </main>
       <Footer />
     </div>

@@ -9,42 +9,44 @@ import appStore from "../../LocalImages/appstore.png";
 import "./DownloadAppSection.scss";
 const DownloadAppSection = () => {
   return (
-    <div className="download-section-wrapper">
-      <div className="content-section">
-        <TextBlock
-          title="Download Our App"
-          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fames egestas et aliquam, orci id eget nec. Urna ultricies orci lobortis neque, pretium rhoncus imperdiet faucibus commodo. Eu."
-        />
-        {/* Qr */}
-        <ImageBlock
-          altTitle="QR code"
-          height={248}
-          width={248}
-          imageSource={qrCode}
-        />
-        <span>
-          {/*Google play  */}
-          <ImageBlock
-            altTitle="play store"
-            height={57}
-            width={258}
-            imageSource={googlePlay}
+    <>
+      <div className="download-section-wrapper">
+        <div className="content-section">
+          <TextBlock
+            title="Download Our App"
+            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fames egestas et aliquam, orci id eget nec. Urna ultricies orci lobortis neque, pretium rhoncus imperdiet faucibus commodo. Eu."
           />
-          {/* appstore */}
+          {/* Qr */}
           <ImageBlock
-            altTitle="apple store"
-            height={57}
-            width={258}
-            imageSource={appStore}
+            altTitle="QR code"
+            height={248}
+            width={248}
+            imageSource={qrCode}
           />
-        </span>
+          <span>
+            {/*Google play  */}
+            <ImageBlock
+              altTitle="play store"
+              height={57}
+              width={258}
+              imageSource={googlePlay}
+            />
+            {/* appstore */}
+            <ImageBlock
+              altTitle="apple store"
+              height={57}
+              width={258}
+              imageSource={appStore}
+            />
+          </span>
+        </div>
+        <div className="download-app-image-wrapper">
+          <ImageBlock
+            imageSource={downloadAppImg}
+            altTitle="download-app-image"
+          />
+        </div>
       </div>
-      <ImageBlock
-        imageSource={downloadAppImg}
-        width={"100%"}
-        height={702}
-        altTitle="download-app-image"
-      />
       <div className="mobile-download-app">
         <h4>Get the Citi977 app</h4>
         <span>Get live order tracking</span>
@@ -53,19 +55,17 @@ const DownloadAppSection = () => {
           <ImageBlock
             altTitle="play store"
             height={102}
-            width={""}
             imageSource={googlePlay}
           />
           {/* appstore */}
           <ImageBlock
             altTitle="apple store"
             height={102}
-            width={""}
             imageSource={appStore}
           />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

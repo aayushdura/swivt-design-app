@@ -1,27 +1,56 @@
 .download-section-wrapper {
   display: flex;
-  margin: 208px 0px 0px 0px;
+  margin: 100px 0px;
+  .download-app-image-wrapper {
+    img {
+      max-width: 600px;
+    }
+  }
 }
 .content-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   // width: 597px;
+  h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 57.1372px;
+    line-height: 69px;
+    text-transform: capitalize;
+  }
+  span {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
 }
 .mobile-download-app {
   padding: 55px 51px 47px 54px;
   background: #d2a54c;
   max-width: 744px;
-  h4,span{font-family: "Source Sans Pro";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 31.6751px;
-  line-height: 113.2%;}
-  display: flex;
+  h4,
+  span {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31.6751px;
+    line-height: 113.2%;
+  }
   display: none;
   flex-direction: column;
   gap: 50px;
   .mobile-store-image-wrapper {
+    display: flex;
+  }
+}
+@media screen and (max-width: 1435px) {
+  .download-section-wrapper {
+    display: none;
+  }
+  .mobile-download-app {
     display: flex;
   }
 }
