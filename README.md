@@ -1,4 +1,4 @@
-### A Normal UI design Practice Based on a Wireframe of an e-commerce Webpage
+# A Normal UI design Practice Based on a Wireframe of an e-commerce Webpage
 
 # Preview ![image](https://user-images.githubusercontent.com/58044533/207794655-e81ed0f2-82ef-44b8-a6a5-1c871aa640e1.png)
 
